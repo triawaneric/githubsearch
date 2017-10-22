@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppThemem" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="searchViewStyle">@style/AppTheme.SearchView</item>
+    </style>
+
+    <style name="AppTheme.SearchView" parent="Widget.AppCompat.SearchView">
+        <item name="closeIcon">@android:color/transparent</item>
+    </style>
+</resources>
